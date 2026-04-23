@@ -1,0 +1,3 @@
+# Placeholder for future GitHub Actions
+# The autonomous builder uses cron jobs, not GitHub Actions,
+# but this directory is reserved for CI/CD if needed later.
