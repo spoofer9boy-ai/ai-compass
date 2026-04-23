@@ -4,3 +4,8 @@ __pycache__/
 .venv/
 *.egg-info/
 .ipynb_checkpoints/
+# Ignore ddgs search output files
+text_*.json
+news_*.json
+images_*.json
+videos_*.json
