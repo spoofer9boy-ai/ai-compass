@@ -1,0 +1,1978 @@
+{
+  "repo_name": "ai-compass",
+  "repo_description": "The AI Compass: A granular, practice-first roadmap for AI engineers.",
+  "build_rules": {
+    "subjects_per_week": 3,
+    "practices_per_week": 1,
+    "subject_schedule": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "practice_schedule": [
+      "Sunday"
+    ],
+    "max_sources_per_subject": 5,
+    "preferred_source_types": [
+      "academic_paper",
+      "engineering_blog",
+      "documentation",
+      "educational_video",
+      "open_source_repo"
+    ]
+  },
+  "phases": [],
+  "total_items": 126,
+  "built_items": 5,
+  "queue": [
+    {
+      "id": 1,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Vectors",
+      "file_name": "01-vectors.md",
+      "type": "subject",
+      "prerequisites": [],
+      "estimated_time_minutes": 45,
+      "status": "built",
+      "built_at": "2026-04-24T07:37:29.981533",
+      "commit_hash": null
+    },
+    {
+      "id": 2,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Vector Operations",
+      "file_name": "02-vector-operations.md",
+      "type": "subject",
+      "prerequisites": [
+        1
+      ],
+      "estimated_time_minutes": 40,
+      "status": "built",
+      "built_at": "2026-04-24T07:37:29.981581",
+      "commit_hash": null
+    },
+    {
+      "id": 3,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Dot Product",
+      "file_name": "03-dot-product.md",
+      "type": "subject",
+      "prerequisites": [
+        1,
+        2
+      ],
+      "estimated_time_minutes": 50,
+      "status": "built",
+      "built_at": "2026-04-24T07:37:29.981586",
+      "commit_hash": null
+    },
+    {
+      "id": 4,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Matrix Multiplication",
+      "file_name": "04-matrix-multiplication.md",
+      "type": "subject",
+      "prerequisites": [
+        1,
+        2,
+        3
+      ],
+      "estimated_time_minutes": 60,
+      "status": "built",
+      "built_at": "2026-04-24T07:37:29.981590",
+      "commit_hash": null
+    },
+    {
+      "id": 5,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Matrix Transpose",
+      "file_name": "05-matrix-transpose.md",
+      "type": "subject",
+      "prerequisites": [
+        4
+      ],
+      "estimated_time_minutes": 30,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 6,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Matrix Inverse",
+      "file_name": "06-matrix-inverse.md",
+      "type": "subject",
+      "prerequisites": [
+        4,
+        5
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 7,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Determinants",
+      "file_name": "07-determinants.md",
+      "type": "subject",
+      "prerequisites": [
+        4,
+        6
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 8,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Systems of Linear Equations",
+      "file_name": "08-systems-of-linear-equations.md",
+      "type": "subject",
+      "prerequisites": [
+        4,
+        6
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 9,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Vector Spaces",
+      "file_name": "09-vector-spaces.md",
+      "type": "subject",
+      "prerequisites": [
+        1,
+        2
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 10,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Basis and Dimension",
+      "file_name": "10-basis-and-dimension.md",
+      "type": "subject",
+      "prerequisites": [
+        9
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 11,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Eigenvalues",
+      "file_name": "11-eigenvalues.md",
+      "type": "subject",
+      "prerequisites": [
+        4,
+        7
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 12,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Eigenvectors",
+      "file_name": "12-eigenvectors.md",
+      "type": "subject",
+      "prerequisites": [
+        11
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 13,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Singular Value Decomposition",
+      "file_name": "13-singular-value-decomposition.md",
+      "type": "subject",
+      "prerequisites": [
+        4,
+        11,
+        12
+      ],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 14,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Principal Component Analysis",
+      "file_name": "14-principal-component-analysis.md",
+      "type": "subject",
+      "prerequisites": [
+        13
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 15,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Limits and Continuity",
+      "file_name": "15-limits-and-continuity.md",
+      "type": "subject",
+      "prerequisites": [],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 16,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Derivatives",
+      "file_name": "16-derivatives.md",
+      "type": "subject",
+      "prerequisites": [
+        15
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 17,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Partial Derivatives",
+      "file_name": "17-partial-derivatives.md",
+      "type": "subject",
+      "prerequisites": [
+        16
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 18,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Gradient Vector",
+      "file_name": "18-gradient-vector.md",
+      "type": "subject",
+      "prerequisites": [
+        17
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 19,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Chain Rule",
+      "file_name": "19-chain-rule.md",
+      "type": "subject",
+      "prerequisites": [
+        16,
+        18
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 20,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Jacobian and Hessian",
+      "file_name": "20-jacobian-and-hessian.md",
+      "type": "subject",
+      "prerequisites": [
+        17,
+        18
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 21,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Probability Axioms",
+      "file_name": "21-probability-axioms.md",
+      "type": "subject",
+      "prerequisites": [],
+      "estimated_time_minutes": 35,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 22,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Conditional Probability",
+      "file_name": "22-conditional-probability.md",
+      "type": "subject",
+      "prerequisites": [
+        21
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 23,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Bayes Theorem",
+      "file_name": "23-bayes-theorem.md",
+      "type": "subject",
+      "prerequisites": [
+        22
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 24,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Random Variables",
+      "file_name": "24-random-variables.md",
+      "type": "subject",
+      "prerequisites": [
+        21
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 25,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Expectation and Variance",
+      "file_name": "25-expectation-and-variance.md",
+      "type": "subject",
+      "prerequisites": [
+        24
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 26,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Common Distributions",
+      "file_name": "26-common-distributions.md",
+      "type": "subject",
+      "prerequisites": [
+        24,
+        25
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 27,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Maximum Likelihood Estimation",
+      "file_name": "27-maximum-likelihood-estimation.md",
+      "type": "subject",
+      "prerequisites": [
+        25,
+        26
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 28,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "NumPy Fundamentals",
+      "file_name": "28-numpy-fundamentals.md",
+      "type": "subject",
+      "prerequisites": [],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 29,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Pandas Fundamentals",
+      "file_name": "29-pandas-fundamentals.md",
+      "type": "subject",
+      "prerequisites": [
+        28
+      ],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 30,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Python Functions and Classes",
+      "file_name": "30-python-functions-and-classes.md",
+      "type": "subject",
+      "prerequisites": [],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 31,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Git Version Control",
+      "file_name": "31-git-version-control.md",
+      "type": "subject",
+      "prerequisites": [],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 32,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Unit Testing Basics",
+      "file_name": "32-unit-testing-basics.md",
+      "type": "subject",
+      "prerequisites": [
+        30
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 33,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Building REST APIs",
+      "file_name": "33-building-rest-apis.md",
+      "type": "subject",
+      "prerequisites": [
+        30,
+        32
+      ],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 34,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Practice: Document Similarity Engine",
+      "file_name": "p01-practice-document-similarity.md",
+      "type": "practice",
+      "prerequisites": [
+        1,
+        2,
+        3
+      ],
+      "estimated_time_minutes": 120,
+      "status": "built",
+      "built_at": "2026-04-24T07:37:29.981608",
+      "commit_hash": null
+    },
+    {
+      "id": 35,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Practice: Image Compression with SVD",
+      "file_name": "p02-practice-image-compression-svd.md",
+      "type": "practice",
+      "prerequisites": [
+        11,
+        12,
+        13
+      ],
+      "estimated_time_minutes": 120,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 36,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Practice: Gradient Descent from Scratch",
+      "file_name": "p03-practice-gradient-descent-scratch.md",
+      "type": "practice",
+      "prerequisites": [
+        16,
+        17,
+        18
+      ],
+      "estimated_time_minutes": 150,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 37,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Practice: Bayesian Spam Filter",
+      "file_name": "p04-practice-bayesian-spam-filter.md",
+      "type": "practice",
+      "prerequisites": [
+        21,
+        22,
+        23
+      ],
+      "estimated_time_minutes": 120,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 38,
+      "phase": "PHASE-01-foundations",
+      "phase_number": 1,
+      "title": "Practice: API Data Pipeline",
+      "file_name": "p05-practice-api-data-pipeline.md",
+      "type": "practice",
+      "prerequisites": [
+        28,
+        29,
+        33
+      ],
+      "estimated_time_minutes": 150,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 39,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "ML Workflow Overview",
+      "file_name": "34-ml-workflow-overview.md",
+      "type": "subject",
+      "prerequisites": [],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 40,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Train-Val-Test Split",
+      "file_name": "35-train-val-test-split.md",
+      "type": "subject",
+      "prerequisites": [
+        34
+      ],
+      "estimated_time_minutes": 35,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 41,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Feature Engineering Basics",
+      "file_name": "36-feature-engineering-basics.md",
+      "type": "subject",
+      "prerequisites": [
+        34
+      ],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 42,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Linear Regression",
+      "file_name": "37-linear-regression.md",
+      "type": "subject",
+      "prerequisites": [
+        4,
+        16,
+        34
+      ],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 43,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Ordinary Least Squares",
+      "file_name": "38-ordinary-least-squares.md",
+      "type": "subject",
+      "prerequisites": [
+        37
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 44,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Gradient Descent for Regression",
+      "file_name": "39-gradient-descent-for-regression.md",
+      "type": "subject",
+      "prerequisites": [
+        18,
+        37
+      ],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 45,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Logistic Regression",
+      "file_name": "40-logistic-regression.md",
+      "type": "subject",
+      "prerequisites": [
+        37,
+        38
+      ],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 46,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Classification Metrics",
+      "file_name": "41-classification-metrics.md",
+      "type": "subject",
+      "prerequisites": [
+        40
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 47,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Decision Trees",
+      "file_name": "42-decision-trees.md",
+      "type": "subject",
+      "prerequisites": [
+        34
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 48,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Ensemble Methods",
+      "file_name": "43-ensemble-methods.md",
+      "type": "subject",
+      "prerequisites": [
+        42
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 49,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Random Forest",
+      "file_name": "44-random-forest.md",
+      "type": "subject",
+      "prerequisites": [
+        42,
+        43
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 50,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Gradient Boosting and XGBoost",
+      "file_name": "45-gradient-boosting-xgboost.md",
+      "type": "subject",
+      "prerequisites": [
+        43,
+        44
+      ],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 51,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Clustering with K-Means",
+      "file_name": "46-clustering-kmeans.md",
+      "type": "subject",
+      "prerequisites": [
+        3,
+        34
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 52,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Dimensionality Reduction Applied",
+      "file_name": "47-dimensionality-reduction-applied.md",
+      "type": "subject",
+      "prerequisites": [
+        14,
+        46
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 53,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Cross-Validation",
+      "file_name": "48-cross-validation.md",
+      "type": "subject",
+      "prerequisites": [
+        35
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 54,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Bias-Variance Tradeoff",
+      "file_name": "49-bias-variance-tradeoff.md",
+      "type": "subject",
+      "prerequisites": [
+        35,
+        48
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 55,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Regularization L1 and L2",
+      "file_name": "50-regularization-l1-l2.md",
+      "type": "subject",
+      "prerequisites": [
+        37,
+        49
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 56,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Practice: Predict House Prices",
+      "file_name": "p06-practice-predict-house-prices.md",
+      "type": "practice",
+      "prerequisites": [
+        34,
+        36,
+        37,
+        38
+      ],
+      "estimated_time_minutes": 180,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 57,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Practice: Customer Churn Prediction",
+      "file_name": "p07-practice-customer-churn.md",
+      "type": "practice",
+      "prerequisites": [
+        40,
+        41,
+        48
+      ],
+      "estimated_time_minutes": 150,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 58,
+      "phase": "PHASE-02-ml-core",
+      "phase_number": 2,
+      "title": "Practice: Recommendation Engine",
+      "file_name": "p08-practice-recommendation-engine.md",
+      "type": "practice",
+      "prerequisites": [
+        3,
+        46,
+        47
+      ],
+      "estimated_time_minutes": 180,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 59,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "The Perceptron",
+      "file_name": "51-the-perceptron.md",
+      "type": "subject",
+      "prerequisites": [
+        37
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 60,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Activation Functions",
+      "file_name": "52-activation-functions.md",
+      "type": "subject",
+      "prerequisites": [
+        51
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 61,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Forward Propagation",
+      "file_name": "53-forward-propagation.md",
+      "type": "subject",
+      "prerequisites": [
+        51,
+        52
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 62,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Backpropagation",
+      "file_name": "54-backpropagation.md",
+      "type": "subject",
+      "prerequisites": [
+        53,
+        19
+      ],
+      "estimated_time_minutes": 70,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 63,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Loss Functions",
+      "file_name": "55-loss-functions.md",
+      "type": "subject",
+      "prerequisites": [
+        40,
+        53
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 64,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Neural Network Architecture",
+      "file_name": "56-neural-network-architecture.md",
+      "type": "subject",
+      "prerequisites": [
+        53,
+        54,
+        55
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 65,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Batch Training",
+      "file_name": "57-batch-training.md",
+      "type": "subject",
+      "prerequisites": [
+        56
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 66,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Optimization: SGD and Momentum",
+      "file_name": "58-optimization-sgd-momentum.md",
+      "type": "subject",
+      "prerequisites": [
+        39,
+        57
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 67,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Optimization: Adam",
+      "file_name": "59-optimization-adam.md",
+      "type": "subject",
+      "prerequisites": [
+        58
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 68,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Learning Rate Scheduling",
+      "file_name": "60-learning-rate-scheduling.md",
+      "type": "subject",
+      "prerequisites": [
+        59
+      ],
+      "estimated_time_minutes": 35,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 69,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Batch Normalization",
+      "file_name": "61-batch-normalization.md",
+      "type": "subject",
+      "prerequisites": [
+        57,
+        56
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 70,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Layer Normalization",
+      "file_name": "62-layer-normalization.md",
+      "type": "subject",
+      "prerequisites": [
+        61
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 71,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Initialization Strategies",
+      "file_name": "63-initialization-strategies.md",
+      "type": "subject",
+      "prerequisites": [
+        56
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 72,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Convolution 1D",
+      "file_name": "64-convolution-1d.md",
+      "type": "subject",
+      "prerequisites": [
+        16
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 73,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Convolution 2D",
+      "file_name": "65-convolution-2d.md",
+      "type": "subject",
+      "prerequisites": [
+        64
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 74,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Pooling and Padding",
+      "file_name": "66-pooling-and-padding.md",
+      "type": "subject",
+      "prerequisites": [
+        65
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 75,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Recurrent Neural Networks",
+      "file_name": "67-recurrent-neural-networks.md",
+      "type": "subject",
+      "prerequisites": [
+        53
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 76,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "LSTM and GRU",
+      "file_name": "68-lstm-and-gru.md",
+      "type": "subject",
+      "prerequisites": [
+        67
+      ],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 77,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Vanishing and Exploding Gradients",
+      "file_name": "69-vanishing-exploding-gradients.md",
+      "type": "subject",
+      "prerequisites": [
+        54,
+        67
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 78,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Self-Attention",
+      "file_name": "70-self-attention.md",
+      "type": "subject",
+      "prerequisites": [
+        3,
+        67
+      ],
+      "estimated_time_minutes": 65,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 79,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Multi-Head Attention",
+      "file_name": "71-multi-head-attention.md",
+      "type": "subject",
+      "prerequisites": [
+        70
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 80,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Positional Encoding",
+      "file_name": "72-positional-encoding.md",
+      "type": "subject",
+      "prerequisites": [
+        70
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 81,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Transformer Architecture",
+      "file_name": "73-transformer-architecture.md",
+      "type": "subject",
+      "prerequisites": [
+        71,
+        72,
+        62
+      ],
+      "estimated_time_minutes": 70,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 82,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Transfer Learning",
+      "file_name": "74-transfer-learning.md",
+      "type": "subject",
+      "prerequisites": [
+        73
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 83,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Practice: CNN Image Classifier",
+      "file_name": "p09-practice-cnn-image-classifier.md",
+      "type": "practice",
+      "prerequisites": [
+        64,
+        65,
+        66,
+        61
+      ],
+      "estimated_time_minutes": 240,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 84,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Practice: RNN Text Generator",
+      "file_name": "p10-practice-rnn-text-generator.md",
+      "type": "practice",
+      "prerequisites": [
+        67,
+        68
+      ],
+      "estimated_time_minutes": 210,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 85,
+      "phase": "PHASE-03-deep-learning",
+      "phase_number": 3,
+      "title": "Practice: Attention from Scratch",
+      "file_name": "p11-practice-attention-from-scratch.md",
+      "type": "practice",
+      "prerequisites": [
+        70,
+        71,
+        72
+      ],
+      "estimated_time_minutes": 240,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 86,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Tokenization: BPE",
+      "file_name": "75-tokenization-bpe.md",
+      "type": "subject",
+      "prerequisites": [],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 87,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Word Embeddings: Word2Vec",
+      "file_name": "76-word-embeddings-word2vec.md",
+      "type": "subject",
+      "prerequisites": [
+        3,
+        75
+      ],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 88,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Contextual Embeddings",
+      "file_name": "77-contextual-embeddings.md",
+      "type": "subject",
+      "prerequisites": [
+        76,
+        73
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 89,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Attention in Transformers: Deep Dive",
+      "file_name": "78-attention-in-transformers-deep-dive.md",
+      "type": "subject",
+      "prerequisites": [
+        71,
+        73
+      ],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 90,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Fine-Tuning: Full",
+      "file_name": "79-fine-tuning-full.md",
+      "type": "subject",
+      "prerequisites": [
+        73,
+        57
+      ],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 91,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Fine-Tuning: LoRA",
+      "file_name": "80-fine-tuning-lora.md",
+      "type": "subject",
+      "prerequisites": [
+        79
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 92,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Fine-Tuning: QLoRA",
+      "file_name": "81-fine-tuning-qlora.md",
+      "type": "subject",
+      "prerequisites": [
+        80
+      ],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 93,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "RLHF Basics",
+      "file_name": "82-rlhf-basics.md",
+      "type": "subject",
+      "prerequisites": [
+        79
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 94,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "KV-Cache",
+      "file_name": "83-kv-cache.md",
+      "type": "subject",
+      "prerequisites": [
+        78
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 95,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Quantization Basics",
+      "file_name": "84-quantization-basics.md",
+      "type": "subject",
+      "prerequisites": [
+        56
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 96,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Speculative Decoding",
+      "file_name": "85-speculative-decoding.md",
+      "type": "subject",
+      "prerequisites": [
+        83,
+        84
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 97,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "RAG: Retrieval",
+      "file_name": "86-rag-retrieval.md",
+      "type": "subject",
+      "prerequisites": [
+        3,
+        77
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 98,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Vector Databases",
+      "file_name": "87-vector-databases.md",
+      "type": "subject",
+      "prerequisites": [
+        86
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 99,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Chunking Strategies",
+      "file_name": "88-chunking-strategies.md",
+      "type": "subject",
+      "prerequisites": [
+        86
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 100,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Prompt Engineering",
+      "file_name": "89-prompt-engineering.md",
+      "type": "subject",
+      "prerequisites": [
+        73
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 101,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "LLM Evaluation Metrics",
+      "file_name": "90-llm-evaluation-metrics.md",
+      "type": "subject",
+      "prerequisites": [
+        89
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 102,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Agent: Tool Use",
+      "file_name": "91-agent-tool-use.md",
+      "type": "subject",
+      "prerequisites": [
+        89
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 103,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Agent: Planning and Multi-Agent",
+      "file_name": "92-agent-planning-and-multi-agent.md",
+      "type": "subject",
+      "prerequisites": [
+        91
+      ],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 104,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Practice: Fine-Tune Sentiment Classifier",
+      "file_name": "p12-practice-finetune-sentiment.md",
+      "type": "practice",
+      "prerequisites": [
+        75,
+        80
+      ],
+      "estimated_time_minutes": 240,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 105,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Practice: RAG QA System",
+      "file_name": "p13-practice-rag-qa-system.md",
+      "type": "practice",
+      "prerequisites": [
+        86,
+        87,
+        88
+      ],
+      "estimated_time_minutes": 270,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 106,
+      "phase": "PHASE-04-llm-engineering",
+      "phase_number": 4,
+      "title": "Practice: Agent Web Search",
+      "file_name": "p14-practice-agent-web-search.md",
+      "type": "practice",
+      "prerequisites": [
+        91,
+        92
+      ],
+      "estimated_time_minutes": 240,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 107,
+      "phase": "PHASE-05-data-engineering",
+      "phase_number": 5,
+      "title": "ETL vs ELT",
+      "file_name": "93-etl-vs-elt.md",
+      "type": "subject",
+      "prerequisites": [],
+      "estimated_time_minutes": 35,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 108,
+      "phase": "PHASE-05-data-engineering",
+      "phase_number": 5,
+      "title": "Data Pipelines",
+      "file_name": "94-data-pipelines.md",
+      "type": "subject",
+      "prerequisites": [
+        93
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 109,
+      "phase": "PHASE-05-data-engineering",
+      "phase_number": 5,
+      "title": "Feature Stores",
+      "file_name": "95-feature-stores.md",
+      "type": "subject",
+      "prerequisites": [
+        94
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 110,
+      "phase": "PHASE-05-data-engineering",
+      "phase_number": 5,
+      "title": "Data Versioning with DVC",
+      "file_name": "96-data-versioning-dvc.md",
+      "type": "subject",
+      "prerequisites": [
+        31
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 111,
+      "phase": "PHASE-05-data-engineering",
+      "phase_number": 5,
+      "title": "Data Validation",
+      "file_name": "97-data-validation.md",
+      "type": "subject",
+      "prerequisites": [
+        94
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 112,
+      "phase": "PHASE-05-data-engineering",
+      "phase_number": 5,
+      "title": "Streaming: Kafka Concepts",
+      "file_name": "98-streaming-kafka-concepts.md",
+      "type": "subject",
+      "prerequisites": [
+        94
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 113,
+      "phase": "PHASE-05-data-engineering",
+      "phase_number": 5,
+      "title": "Orchestration: Airflow",
+      "file_name": "99-orchestration-airflow.md",
+      "type": "subject",
+      "prerequisites": [
+        94
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 114,
+      "phase": "PHASE-05-data-engineering",
+      "phase_number": 5,
+      "title": "Data Labeling Infrastructure",
+      "file_name": "100-data-labeling-infrastructure.md",
+      "type": "subject",
+      "prerequisites": [
+        94
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 115,
+      "phase": "PHASE-05-data-engineering",
+      "phase_number": 5,
+      "title": "Practice: Pipeline and Feature Store",
+      "file_name": "p15-practice-pipeline-feature-store.md",
+      "type": "practice",
+      "prerequisites": [
+        93,
+        94,
+        95,
+        97
+      ],
+      "estimated_time_minutes": 240,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 116,
+      "phase": "PHASE-06-mlops-production",
+      "phase_number": 6,
+      "title": "Docker for ML",
+      "file_name": "101-docker-for-ml.md",
+      "type": "subject",
+      "prerequisites": [],
+      "estimated_time_minutes": 60,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 117,
+      "phase": "PHASE-06-mlops-production",
+      "phase_number": 6,
+      "title": "Model Serving: REST API",
+      "file_name": "102-model-serving-rest-api.md",
+      "type": "subject",
+      "prerequisites": [
+        101,
+        33
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 118,
+      "phase": "PHASE-06-mlops-production",
+      "phase_number": 6,
+      "title": "Model Serving: Batch",
+      "file_name": "103-model-serving-batch.md",
+      "type": "subject",
+      "prerequisites": [
+        102
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 119,
+      "phase": "PHASE-06-mlops-production",
+      "phase_number": 6,
+      "title": "Monitoring Model Drift",
+      "file_name": "104-monitoring-model-drift.md",
+      "type": "subject",
+      "prerequisites": [
+        102
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 120,
+      "phase": "PHASE-06-mlops-production",
+      "phase_number": 6,
+      "title": "CI/CD for ML",
+      "file_name": "105-ci-cd-for-ml.md",
+      "type": "subject",
+      "prerequisites": [
+        31,
+        101
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 121,
+      "phase": "PHASE-06-mlops-production",
+      "phase_number": 6,
+      "title": "A/B Testing for Models",
+      "file_name": "106-ab-testing-for-models.md",
+      "type": "subject",
+      "prerequisites": [
+        102,
+        104
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 122,
+      "phase": "PHASE-06-mlops-production",
+      "phase_number": 6,
+      "title": "Model Registry",
+      "file_name": "107-model-registry.md",
+      "type": "subject",
+      "prerequisites": [
+        105
+      ],
+      "estimated_time_minutes": 40,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 123,
+      "phase": "PHASE-06-mlops-production",
+      "phase_number": 6,
+      "title": "Distributed Training Basics",
+      "file_name": "108-distributed-training-basics.md",
+      "type": "subject",
+      "prerequisites": [
+        57,
+        101
+      ],
+      "estimated_time_minutes": 55,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 124,
+      "phase": "PHASE-06-mlops-production",
+      "phase_number": 6,
+      "title": "Data Parallelism",
+      "file_name": "109-data-parallelism.md",
+      "type": "subject",
+      "prerequisites": [
+        108
+      ],
+      "estimated_time_minutes": 45,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 125,
+      "phase": "PHASE-06-mlops-production",
+      "phase_number": 6,
+      "title": "Edge Deployment Basics",
+      "file_name": "110-edge-deployment-basics.md",
+      "type": "subject",
+      "prerequisites": [
+        84,
+        101
+      ],
+      "estimated_time_minutes": 50,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    },
+    {
+      "id": 126,
+      "phase": "PHASE-06-mlops-production",
+      "phase_number": 6,
+      "title": "Practice: Deploy ML API with Monitoring",
+      "file_name": "p16-practice-deploy-ml-api.md",
+      "type": "practice",
+      "prerequisites": [
+        101,
+        102,
+        104
+      ],
+      "estimated_time_minutes": 300,
+      "status": "pending",
+      "built_at": null,
+      "commit_hash": null
+    }
+  ]
+}
