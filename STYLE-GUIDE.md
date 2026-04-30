@@ -40,7 +40,7 @@ Each bullet must name a specific domain or tool.]
 [Exactly 3-5 high-quality sources. Cite the original, not a Medium rehash.
 Format: `- [Title](URL) — One-line description.`]
 
-- [3Blue1Brown: Linear Algebra](https://www.3blue1brown.com/topics/linear-algebra) — Visual intuition for vectors, matrices, and linear transformations.
+- [3Blue1Brown: Linear Algebra](https://www.3blue1brown.com/?topic=linear-algebra) — Visual intuition for linear algebra concepts.
 - [PyTorch Docs: torch.matmul](https://pytorch.org/docs/stable/generated/torch.matmul.html) — The API you will actually use.
 
 ## Appendix

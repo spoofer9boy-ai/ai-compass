@@ -21,7 +21,7 @@ When you search for a document semantically, when a transformer decides which to
 ## Resources
 
 - [3Blue1Brown: Dot Products and Duality](https://www.3blue1brown.com/lessons/dot-products) — Geometric intuition that changes how you see ML.
-- [Stanford CS231n: Linear Algebra Review](https://cs231n.stanford.edu/linear-algebra-review.pdf) — Concise reference with ML focus.
+- [Khan Academy: Linear Algebra](https://www.khanacademy.org/math/linear-algebra) — Concise reference with ML focus.
 - [PyTorch Docs: torch.dot](https://pytorch.org/docs/stable/generated/torch.dot.html) — The API.
 - [Pinecone: Similarity Measures](https://www.pinecone.io/learn/vector-similarity/) — How dot product becomes search.
 
@@ -48,4 +48,4 @@ Cosine similarity normalizes the dot product by magnitudes, removing the effect 
 
 ### Further Reading
 
-- [Blog: The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) — See dot products powering attention.
+- [Blog: The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) — See dot products powering attention.

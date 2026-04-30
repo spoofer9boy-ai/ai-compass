@@ -49,8 +49,7 @@ PyTorch `torch.bmm` handles batches of matrices: `(b, m, n) × (b, n, p) → (b,
 
 - Dimension mismatch: the most common PyTorch error is `mat1 and mat2 shapes cannot be multiplied`.
 - Confusing matrix multiplication with element-wise multiplication (`*` in NumPy).
-- Forgetting that matrix multiplication is not commutative: $\mathbf{AB} 
-eq \mathbf{BA}$ in general.
+- Forgetting that matrix multiplication is not commutative: $\mathbf{AB} \neq \mathbf{BA}$ in general.
 - Not leveraging broadcasting rules for batch operations.
 
 ### Further Reading

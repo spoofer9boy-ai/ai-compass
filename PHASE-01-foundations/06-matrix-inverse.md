@@ -22,7 +22,7 @@ The inverse is the algebraic undo button. If matrix multiplication by $\mathbf{A
 ## Resources
 
 - [MIT OpenCourseWare: Linear Algebra (Gilbert Strang)](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/) — Lectures 2 and 3 cover the geometry of inverses and elimination. The canonical academic source.
-- [3Blue1Brown: Linear Algebra](https://www.3blue1brown.com/topics/linear-algebra) — Visual intuition for what matrix inversion does geometrically (undoing a linear transformation).
+- [3Blue1Brown: Linear Algebra](https://www.3blue1brown.com/?topic=linear-algebra) — Visual intuition for what matrix inversion does geometrically (undoing a linear transformation).
 - [NumPy Docs: numpy.linalg.inv](https://numpy.org/doc/stable/reference/generated/numpy.linalg.inv.html) — The production API for computing inverses, with notes on singular matrices.
 - [PyTorch Docs: torch.linalg.inv](https://pytorch.org/docs/stable/generated/torch.linalg.inv.html) — GPU-accelerated matrix inversion for batched tensors.
 - [Wikipedia: Invertible Matrix](https://en.wikipedia.org/wiki/Invertible_matrix) — Exhaustive reference on equivalent conditions for invertibility and computational methods.

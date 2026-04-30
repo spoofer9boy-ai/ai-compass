@@ -53,4 +53,4 @@ In NumPy and PyTorch, `.transpose()` and `.T` usually return a **view**, not a c
 ### Further Reading
 
 - [3Blue1Brown: Dot Products and Duality](https://www.3blue1brown.com/lessons/dot-products) — Transpose appears naturally in the duality interpretation.
-- [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/) — See where $K^T$ appears in the attention diagram.
+- [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) — See where $K^T$ appears in the attention diagram.

@@ -12,8 +12,7 @@ If you understand vector addition and scalar multiplication, you understand the 
 
 ## Where will I be using it?
 
-- **Gradient descent:** Updating weights as $\mathbf{w}_{new} = \mathbf{w}_{old} - \eta 
-abla L$ is vector subtraction and scalar multiplication.
+- **Gradient descent:** Updating weights as $\mathbf{w}_{new} = \mathbf{w}_{old} - \eta \nabla L$ is vector subtraction and scalar multiplication.
 - **Residual connections:** $	ext{output} = 	ext{input} + 	ext{transform(input)}$ in ResNets and Transformers.
 - **Embedding averaging:** Averaging token embeddings into a sentence embedding.
 - **Data augmentation:** Scaling image pixel vectors to change brightness.
@@ -30,7 +29,7 @@ abla L$ is vector subtraction and scalar multiplication.
 ### Notation
 
 - $\mathbf{u} + \mathbf{v}$: Component-wise addition.
-- $lpha \mathbf{v}$: Scalar multiplication (stretching or shrinking).
+- $\alpha \mathbf{v}$: Scalar multiplication (stretching or shrinking).
 - $\mathbf{u} - \mathbf{v} = \mathbf{u} + (-1)\mathbf{v}$.
 
 ### Broadcasting Rules (NumPy/PyTorch)
@@ -49,4 +48,4 @@ This is why you can add a bias vector to an entire batch of vectors in one line.
 
 ### Further Reading
 
-- [A Visual Intro to NumPy](http://jalammar.github.io/visual-numpy/) — How vector operations map to array code.
+- [A Visual Intro to NumPy](https://jalammar.github.io/visual-numpy/) — How vector operations map to array code.
