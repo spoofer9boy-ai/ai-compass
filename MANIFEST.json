@@ -192,9 +192,9 @@
         7
       ],
       "estimated_time_minutes": 55,
-      "status": "pending",
-      "built_at": null,
-      "commit_hash": null
+      "status": "built",
+      "built_at": "2026-05-04T00:00:00+00:00",
+      "commit_hash": "5746c1b3ded4d689f00848c5718d1ff2e11ea27a"
     },
     {
       "id": 12,
