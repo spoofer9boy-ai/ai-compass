@@ -11,8 +11,7 @@ Because the dot product is the Swiss Army knife of machine learning. It measures
 When you search for a document semantically, when a transformer decides which tokens to attend to, when a recommender predicts if a user will like an item—all of these are dot products in disguise.
 
 ## Where will I be using it?
-
-- **Cosine similarity:** The core operation in semantic search and RAG systems. $	ext{sim}(\mathbf{a}, \mathbf{b}) = rac{\mathbf{a} \cdot \mathbf{b}}{||\mathbf{a}|| \, ||\mathbf{b}||}$.
+- **Cosine similarity:** The core operation in semantic search and RAG systems. $\text{sim}(\mathbf{a}, \mathbf{b}) = \frac{\mathbf{a} \cdot \mathbf{b}}{||\mathbf{a}|| \, ||\mathbf{b}||}$.
 - **Attention mechanisms:** In transformers, attention scores are computed as dot products between query and key vectors.
 - **Linear regression (closed form):** The normal equation $\mathbf{w} = (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{y}$ is built from dot products.
 - **Neural network layers:** A fully connected layer is a matrix of dot products between input vector and each neuron's weight vector.
@@ -30,7 +29,7 @@ When you search for a document semantically, when a transformer decides which to
 ### Notation
 
 - $\mathbf{a} \cdot \mathbf{b} = \sum_{i=1}^{n} a_i b_i$
-- $\mathbf{a} \cdot \mathbf{b} = ||\mathbf{a}|| \, ||\mathbf{b}|| \cos(	heta)$
+- $\mathbf{a} \cdot \mathbf{b} = ||\mathbf{a}|| \, ||\mathbf{b}|| \cos(\theta)$
 
 ### Geometric Interpretation
 
