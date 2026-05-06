@@ -254,7 +254,7 @@
       "estimated_time_minutes": 40,
       "status": "built",
       "built_at": "2026-05-06T08:00:00+00:00",
-      "commit_hash": null
+      "commit_hash": "a8c56790cc1b0d781ad0fc467cf2235fac50d0d6"
     },
     {
       "id": 16,
