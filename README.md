@@ -22,7 +22,7 @@ The AI Compass is not a list of courses to watch. It is a structured path where 
 
 ## Repository Structure
 
-```
+```text
 ai-compass/
 ├── MANIFEST.json              # The full curriculum queue
 ├── STYLE-GUIDE.md             # How subjects and practices are formatted

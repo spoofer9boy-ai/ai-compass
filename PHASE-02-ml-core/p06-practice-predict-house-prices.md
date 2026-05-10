@@ -45,7 +45,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 # ------------------------------------------------------------------
 # Assume train.csv is the classic Kaggle "House Prices" dataset.
 # If you don't have it locally, download from:
-# https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data
+# https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data (requires Kaggle account)
 # For this exercise, we'll generate a tiny synthetic stand-in so the script runs.
 # Replace this block with pd.read_csv("train.csv") in real use.
 # ------------------------------------------------------------------

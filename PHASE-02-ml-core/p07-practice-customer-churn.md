@@ -55,7 +55,7 @@ from sklearn.metrics import (
 # ------------------------------------------------------------------
 # Assume WA_Fn-UseC_-Telco-Customer-Churn.csv is the classic IBM dataset.
 # If you don't have it locally, download from:
-# https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+# https://www.kaggle.com/datasets/blastchar/telco-customer-churn (requires Kaggle account)
 # For this exercise, we'll generate a tiny synthetic stand-in so the script runs.
 # Replace this block with pd.read_csv("...") in real use.
 # ------------------------------------------------------------------

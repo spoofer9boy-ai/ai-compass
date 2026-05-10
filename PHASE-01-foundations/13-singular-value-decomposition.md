@@ -25,7 +25,7 @@ Singular Value Decomposition (SVD) is the generalization that removes every one 
 - [NumPy Docs: numpy.linalg.svd](https://numpy.org/doc/stable/reference/generated/numpy.linalg.svd.html) — The API you will actually call. Explains the `full_matrices`, `compute_uv`, and `hermitian` flags.
 - [3Blue1Brown: What is the Singular Value Decomposition?](https://www.youtube.com/watch?v=CpD9XlTu3ys) — Visual, geometric intuition for how SVD rotates, scales, and rotates again.
 - [Dennis Miczek: SVD Image Compression, Explained](https://dmicz.github.io/machine-learning/svd-image-compression/) — Hands-on walkthrough of low-rank approximation with concrete Python code and compression ratios.
-- [Wikipedia: Matrix Factorization (Recommender Systems)](https://en.wikipedia.org/wiki/Matrix_factorization_(recommender_systems)) — How truncated SVD and its variants (SVD++, Funk SVD) power collaborative filtering at scale.
+- [Wikipedia: Matrix Factorization (Recommender Systems)](<https://en.wikipedia.org/wiki/Matrix_factorization_(recommender_systems)>) — How truncated SVD and its variants (SVD++, Funk SVD) power collaborative filtering at scale.
 
 ## Appendix
 
@@ -73,4 +73,4 @@ If $\mathbf{A}$ is square, symmetric, and positive semi-definite, its SVD coinci
 
 - [Trokas AI Primer: SVD](https://trokas.github.io/ai_primer/SVD.html) — Interactive geometric illustrations and Python snippets.
 - [ArXiv: Image Compression Using Singular Value Decomposition](https://arxiv.org/html/2512.16226v1) — Recent empirical study on compression ratios and Frobenius error trade-offs.
-- [Netflix Prize and SVD (PDF)](http://buzzard.ups.edu/courses/2014spring/420projects/math420-UPS-spring-2014-gower-netflix-SVD.pdf) — Classic student paper walking through SVD-based collaborative filtering on the Netflix dataset.
+- [Netflix Prize and SVD (PDF)](https://buzzard.ups.edu/courses/2014spring/420projects/math420-UPS-spring-2014-gower-netflix-SVD.pdf) — Classic student paper walking through SVD-based collaborative filtering on the Netflix dataset. **Note:** UPS domain may be unreachable; if so, search "Gower Netflix SVD PDF" for mirrors.

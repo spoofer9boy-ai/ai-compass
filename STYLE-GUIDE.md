@@ -141,7 +141,7 @@ import numpy as np
 
 The autonomous builder uses:
 
-```
+```text
 feat(PHASE-XX): add [subject-title] subject
 feat(PHASE-XX): add [practice-title] practice
 ```
