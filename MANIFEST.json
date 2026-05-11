@@ -313,9 +313,9 @@
         18
       ],
       "estimated_time_minutes": 45,
-      "status": "pending",
-      "built_at": null,
-      "commit_hash": null
+      "status": "built",
+      "built_at": "2026-05-11T16:04:00+00:00",
+      "commit_hash": "c0039e6327e80817cfa0afd290432da796dabacc"
     },
     {
       "id": 20,
