@@ -25,7 +25,7 @@ In neural networks, eigenvectors of the Hessian reveal which parameter direction
 - [MIT 18.06: Eigenvalues and Eigenvectors (PDF)](https://math.mit.edu/~gs/linearalgebra/ila6/ila6_6_1.pdf) — Gilbert Strang's chapter on the geometry and algebra of eigenvectors.
 - [Wikipedia: Eigenvalues and Eigenvectors](https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors) — Rigorous definitions, properties, and the full mathematical picture.
 - [Spectral Clustering Explained](https://towardsdatascience.com/spectral-clustering-explained-how-eigenvectors-reveal-complex-cluster-structures/) — How eigenvectors of the graph Laplacian expose cluster boundaries.
-- [PCA and Eigenvectors](https://apxml.com/courses/linear-algebra-essentials-ml/chapter-5-eigenvalues-eigenvectors/significance-pca) — Why eigenvectors of the covariance matrix are the principal components. **Note:** This site may return 403; if blocked, use the Wikipedia PCA article or scikit-learn PCA docs instead.
+- [PCA and Eigenvectors](https://www.datasciencebase.com/intermediate/linear-algebra/principal-component-analysis/) — Why eigenvectors of the covariance matrix are the principal components. **Note:** This site may return 403; if blocked, use the Wikipedia PCA article or scikit-learn PCA docs instead.
 
 ## Appendix
 

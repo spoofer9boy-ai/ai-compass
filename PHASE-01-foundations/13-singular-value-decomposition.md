@@ -73,4 +73,4 @@ If $\mathbf{A}$ is square, symmetric, and positive semi-definite, its SVD coinci
 
 - [Trokas AI Primer: SVD](https://trokas.github.io/ai_primer/SVD.html) — Interactive geometric illustrations and Python snippets.
 - [ArXiv: Image Compression Using Singular Value Decomposition](https://arxiv.org/html/2512.16226v1) — Recent empirical study on compression ratios and Frobenius error trade-offs.
-- [Netflix Prize and SVD (PDF)](https://buzzard.ups.edu/courses/2014spring/420projects/math420-UPS-spring-2014-gower-netflix-SVD.pdf) — Classic student paper walking through SVD-based collaborative filtering on the Netflix dataset. **Note:** UPS domain may be unreachable; if so, search "Gower Netflix SVD PDF" for mirrors.
+- [Netflix Prize and SVD (PDF)](https://datajobs.com/data-science-repo/Recommender-Systems-%5BNetflix%5D.pdf) — Classic student paper walking through SVD-based collaborative filtering on the Netflix dataset. **Note:** UPS domain may be unreachable; if so, search "Gower Netflix SVD PDF" for mirrors.
