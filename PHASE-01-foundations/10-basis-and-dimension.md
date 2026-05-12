@@ -26,7 +26,7 @@ You will not write a basis-finding algorithm in production, but you will constan
 - [3Blue1Brown: Linear combinations, span, and basis vectors](https://www.3blue1brown.com/lessons/span/) — Visual intuition for why a basis acts as a "coordinate system" for a space.
 - [Interactive Linear Algebra: Basis and Dimension](https://textbooks.math.gatech.edu/ila/dimension.html) — Free textbook chapter with proofs and worked examples.
 - [Khan Academy: Basis of a subspace](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/subspace-basis/v/linear-algebra-basis-of-a-subspace) — Step-by-step video building the definition from span and independence.
-- [Wikipedia: Basis (linear algebra)](<https://en.wikipedia.org/wiki/Basis_(linear_algebra)>) — Rigorous definition and key theorems, including the fact that all bases share the same cardinality.
+- [Wikipedia: Basis (linear algebra)](<https://en.wikipedia.org/wiki/Basis_(linear_algebra))>) — Rigorous definition and key theorems, including the fact that all bases share the same cardinality.
 
 ## Appendix
 
