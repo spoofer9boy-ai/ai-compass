@@ -342,9 +342,9 @@
       "type": "subject",
       "prerequisites": [],
       "estimated_time_minutes": 35,
-      "status": "pending",
-      "built_at": null,
-      "commit_hash": null
+      "status": "built",
+      "built_at": "2026-05-13T00:00:00+00:00",
+      "commit_hash": "35533b17c0d454fd25638f7a06adfc9530fb40bc"
     },
     {
       "id": 22,
