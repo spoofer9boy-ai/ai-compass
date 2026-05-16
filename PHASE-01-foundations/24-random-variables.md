@@ -54,5 +54,5 @@ If you skip this concept, you will treat every number as fixed and deterministic
 
 ### Further Reading
 
-- [3Blue1Brown: Probability](https://www.3blue1brown.com/topics/probability) — Visual intuition for probability concepts, including random variables and distributions.
+- [3Blue1Brown: Probability](https://www.3blue1brown.com/?topic=probability) — Visual intuition for probability concepts, including random variables and distributions.
 - [Python Docs: random module](https://docs.python.org/3/library/random.html) — Basic random number generation in the Python standard library.
