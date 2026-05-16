@@ -23,7 +23,7 @@
   },
   "phases": [],
   "total_items": 126,
-  "built_items": 19,
+  "built_items": 35,
   "queue": [
     {
       "id": 1,
@@ -1308,8 +1308,8 @@
         61
       ],
       "estimated_time_minutes": 240,
-      "status": "pending",
-      "built_at": null,
+      "status": "built",
+      "built_at": "2026-05-16T16:03:34.664670+00:00",
       "commit_hash": null
     },
     {
