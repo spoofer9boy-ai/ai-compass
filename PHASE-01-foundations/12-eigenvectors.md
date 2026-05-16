@@ -24,7 +24,7 @@ In neural networks, eigenvectors of the Hessian reveal which parameter direction
 - [3Blue1Brown: Eigenvectors and Eigenvalues](https://www.3blue1brown.com/lessons/eigenvalues/) — Visual intuition for why eigenvectors stay on their own span during a transformation.
 - [MIT 18.06: Eigenvalues and Eigenvectors (PDF)](https://math.mit.edu/~gs/linearalgebra/ila6/ila6_6_1.pdf) — Gilbert Strang's chapter on the geometry and algebra of eigenvectors.
 - [Wikipedia: Eigenvalues and Eigenvectors](https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors) — Rigorous definitions, properties, and the full mathematical picture.
-- [Spectral Clustering Explained](https://towardsdatascience.com/spectral-clustering-explained-how-eigenvectors-reveal-complex-cluster-structures/) — How eigenvectors of the graph Laplacian expose cluster boundaries.
+- [Spectral Clustering Explained](https://towardsdatascience.com/spectral-clustering-explained-how-eigenvectors-reveal-complex-cluster-structures/) — How eigenvectors of the graph Laplacian expose cluster boundaries. **Note:** Medium may block automated requests; if the link is inaccessible, use the [Wikipedia: Spectral Clustering](https://en.wikipedia.org/wiki/Spectral_clustering) or [scikit-learn Spectral Clustering docs](https://scikit-learn.org/stable/modules/clustering.html#spectral-clustering) instead.
 - [PCA and Eigenvectors](https://www.datasciencebase.com/intermediate/linear-algebra/principal-component-analysis/) — Why eigenvectors of the covariance matrix are the principal components. **Note:** This site may return 403; if blocked, use the Wikipedia PCA article or scikit-learn PCA docs instead.
 
 ## Appendix
