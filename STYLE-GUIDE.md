@@ -98,7 +98,7 @@ the adjacency so the student focuses on the target subjects.]
 import numpy as np
 
 # TODO: Implement the core logic using only the subjects covered so far.
-```python
+```
 
 ## Evaluation Criteria
 
@@ -115,7 +115,7 @@ import numpy as np
 
 ```python
 # Full solution with comments explaining the connection to each subject.
-```python
+```
 
 </details>
 
