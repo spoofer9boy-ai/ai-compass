@@ -1341,8 +1341,8 @@
         72
       ],
       "estimated_time_minutes": 240,
-      "status": "pending",
-      "built_at": null,
+      "status": "built",
+      "built_at": "2026-05-17T08:04:21.760264+00:00",
       "commit_hash": null
     },
     {
