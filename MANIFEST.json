@@ -447,8 +447,8 @@
       "type": "subject",
       "prerequisites": [],
       "estimated_time_minutes": 60,
-      "status": "pending",
-      "built_at": null,
+      "status": "built",
+      "built_at": "2026-05-19T16:37:41+0000",
       "commit_hash": null
     },
     {
