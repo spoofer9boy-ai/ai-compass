@@ -475,8 +475,8 @@
       "type": "subject",
       "prerequisites": [],
       "estimated_time_minutes": 50,
-      "status": "pending",
-      "built_at": null,
+      "status": "built",
+      "built_at": "2026-05-22T00:02:35+0000",
       "commit_hash": null
     },
     {
