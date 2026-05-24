@@ -30,7 +30,7 @@ You are **not** required to use gradient descent here — OLS is explicitly the 
 - You may use `sklearn.model_selection.train_test_split` and `sklearn.metrics.mean_squared_error` / `r2_score`.
 - All feature engineering must be deterministic (no random imputation).
 - The notebook/script must run on a single CPU core in under 5 seconds after data is loaded.
-- Target validation RMSE < \$50,000 and R² > 0.75 on the classic Ames Housing dataset.
+- Target validation RMSE < $50,000 and R² > 0.75 on the classic Ames Housing dataset.
 
 ## Starter Code
 
@@ -126,7 +126,7 @@ print(f"Validation R²:   {r2:.3f}")
 
 ## Evaluation Criteria
 
-1. **Correctness:** Validation RMSE < \$50,000 and R² > 0.75 on the synthetic dataset (or equivalent thresholds on the real Ames dataset).
+1. **Correctness:** Validation RMSE < $50,000 and R² > 0.75 on the synthetic dataset (or equivalent thresholds on the real Ames dataset).
 2. **OLS Implementation:** You explicitly compute `w = (XᵀX)⁻¹ Xᵀy` (or the pseudo-inverse variant) — no `sklearn.linear_model`.
 3. **Preprocessing:** Missing values and categoricals are handled deterministically; the pipeline does not crash on unseen categories in validation (hint: fit dummies on training data only, then reindex validation).
 4. **Interpretability:** You print the six most influential coefficients with their feature names, proving the model is inspectable.

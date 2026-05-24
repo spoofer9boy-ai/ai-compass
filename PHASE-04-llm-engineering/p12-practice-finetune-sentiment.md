@@ -7,7 +7,7 @@
 
 ## Industry Context
 
-You are an ML engineer at a customer-support SaaS startup. Support tickets arrive at 2,000 per hour, and the ops team needs real-time sentiment tagging (positive, neutral, negative) to prioritize escalations. Off-the-shelf APIs cost $0.002 per request—prohibitively expensive at scale. The product manager wants an in-house classifier that runs on a single GPU and beats a 90% accuracy threshold. You have 5,000 labeled tickets and a pretrained BERT-base model.
+You are an ML engineer at a customer-support SaaS startup. Support tickets arrive at 2,000 per hour, and the ops team needs real-time sentiment tagging (positive, neutral, negative) to prioritize escalations. Off-the-shelf APIs cost \$0.002 per request—prohibitively expensive at scale. The product manager wants an in-house classifier that runs on a single GPU and beats a 90% accuracy threshold. You have 5,000 labeled tickets and a pretrained BERT-base model.
 
 ## The Problem
 

@@ -25,7 +25,7 @@ Singular Value Decomposition (SVD) is the generalization that removes every one 
 - [NumPy Docs: numpy.linalg.svd](https://numpy.org/doc/stable/reference/generated/numpy.linalg.svd.html) — The API you will actually call. Explains the `full_matrices`, `compute_uv`, and `hermitian` flags.
 - [3Blue1Brown: What is the Singular Value Decomposition?](https://www.youtube.com/watch?v=CpD9XlTu3ys) — Visual, geometric intuition for how SVD rotates, scales, and rotates again.
 - [Dennis Miczek: SVD Image Compression, Explained](https://dmicz.github.io/machine-learning/svd-image-compression/) — Hands-on walkthrough of low-rank approximation with concrete Python code and compression ratios.
-- [Wikipedia: Matrix Factorization (Recommender Systems)](<https://en.wikipedia.org/wiki/Matrix_factorization_(recommender_systems)>) — How truncated SVD and its variants (SVD++, Funk SVD) power collaborative filtering at scale.
+- [Wikipedia: Matrix Factorization (Recommender Systems)](https://en.wikipedia.org/wiki/Matrix_factorization_(recommender_systems)) — How truncated SVD and its variants (SVD++, Funk SVD) power collaborative filtering at scale.
 
 ## Appendix
 
