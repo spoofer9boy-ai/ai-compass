@@ -21,9 +21,9 @@ MLE is not just a statistics exercise. It is the optimization objective hiding i
 ## Resources
 
 - [Wikipedia: Maximum Likelihood Estimation](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation) — Comprehensive overview of likelihood equations, properties, and common pitfalls.
-- [CMU 36-705 Lecture 13: Point Estimation and MLE](http://www.stat.cmu.edu/~larry/=stat705/Lecture13.pdf) — Rigorous derivation of MLE as a general-purpose estimator and comparison to Method of Moments.
-- [CMU 36-705 Lecture 15: Asymptotic Theory for MLE](http://www.stat.cmu.edu/~larry/=stat705/Lecture15.pdf) — Consistency and asymptotic normality of the MLE under mild regularity conditions.
-- [CMU 36-401 Lecture 6: MLE for Simple Linear Regression](http://www.stat.cmu.edu/~cshalizi/mreg/15/lectures/06/lecture-06.pdf) — Concrete walkthrough of deriving the MLE for Gaussian linear regression.
+- [CMU 36-705 Lecture 13: Point Estimation and MLE](https://www.stat.cmu.edu/~larry/=stat705/Lecture13.pdf) — Rigorous derivation of MLE as a general-purpose estimator and comparison to Method of Moments.
+- [CMU 36-705 Lecture 15: Asymptotic Theory for MLE](https://www.stat.cmu.edu/~larry/=stat705/Lecture15.pdf) — Consistency and asymptotic normality of the MLE under mild regularity conditions.
+- [CMU 36-401 Lecture 6: MLE for Simple Linear Regression](https://www.stat.cmu.edu/~cshalizi/mreg/15/lectures/06/lecture-06.pdf) — Concrete walkthrough of deriving the MLE for Gaussian linear regression.
 - [SciPy Docs: rv_continuous.fit](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.rv_continuous.fit.html) — The API you will actually use to fit distributions via MLE.
 
 ## Appendix
