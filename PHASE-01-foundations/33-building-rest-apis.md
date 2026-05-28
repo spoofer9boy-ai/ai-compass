@@ -21,7 +21,7 @@ REST is the dominant lingua franca for these interfaces. It is not the only opti
 ## Resources
 
 - [MDN: HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods) — Authoritative reference for GET, POST, PUT, PATCH, DELETE semantics and idempotency.
-- [Roy Fielding: REST Architectural Style](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) — The original dissertation chapter defining REST; essential for understanding statelessness and the uniform interface.
+- [Roy Fielding: REST Architectural Style](https://roy.gbiv.com/pubs/dissertation/rest_arch_style.htm) — The original dissertation chapter defining REST; essential for understanding statelessness and the uniform interface.
 - [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/) — Modern, type-annotated Python framework; the default choice for high-performance model serving.
 - [Flask Quickstart](https://flask.palletsprojects.com/en/stable/quickstart/) — Minimalist Python framework; ideal when you need something lightweight and explicit.
 - [Swagger: Best Practices in API Design](https://swagger.io/resources/articles/best-practices-in-api-design/) — Practical guidelines for resource naming, HTTP status codes, and error handling.
