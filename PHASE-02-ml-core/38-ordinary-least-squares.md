@@ -25,7 +25,7 @@ Finally, OLS is the gateway to statistical inference in ML. The same matrix alge
 - [scikit-learn: Linear Regression (OLS)](https://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares) — The API you will actually call; includes complexity notes and caveats.
 - [statsmodels OLS Documentation](https://www.statsmodels.org/stable/regression.html) — Deep statistical output: standard errors, t-tests, R-squared, and diagnostics.
 - [Stanford CS229 Notes: Linear Regression](https://cs229.stanford.edu/notes2022fall/main_notes.pdf) — Derives the normal equations from first principles with matrix notation.
-- [3Blue1Brown: Least Squares](https://www.3blue1brown.com/lessons/least-squares) — Visual intuition for why minimizing squared error projects data onto the column space.
+- [3Blue1Brown: Least Squares](https://www.3blue1brown.com/lessons/linear-regression) — Visual intuition for why minimizing squared error projects data onto the column space.
 - [CMU 36-707: Regression Lecture Notes](https://www.stat.cmu.edu/~cshalizi/mreg/15/lectures/13/lecture-13.pdf) — Rigorous treatment of the geometry of OLS, projection matrices, and the Gauss-Markov theorem.
 
 ## Appendix
@@ -69,4 +69,4 @@ The predicted values $\hat{\mathbf{y}} = \mathbf{X}\hat{\boldsymbol{\beta}}$ are
 ### Further Reading
 
 - [Wikipedia: Ordinary Least Squares](https://en.wikipedia.org/wiki/Ordinary_least_squares) — Comprehensive reference on assumptions, properties, and extensions.
-- [The Elements of Statistical Learning, Section 3.2](https://hastie.su.domains/ElemStatLearn/) — Compares OLS to shrinkage methods in a unified framework.
+- [The Elements of Statistical Learning, Section 3.2](https://web.stanford.edu/~hastie/ElemStatLearn/) — Compares OLS to shrinkage methods in a unified framework.

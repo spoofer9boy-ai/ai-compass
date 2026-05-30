@@ -44,4 +44,4 @@ The formal definition of a limit also teaches you how to think about approximati
 ### Further Reading
 
 - [Distill.pub: Explorable Explanations](https://distill.pub) — For visual, interactive deep dives into calculus concepts.
-- [Wikipedia: Limit (mathematics)](https://en.wikipedia.org/wiki/Limit_(mathematics)) — Rigorous definitions and history. Verified canonical URL.
+- [Wikipedia: Limit (mathematics)](https://en.wikipedia.org/wiki/Limit_%28mathematics%29) — Rigorous definitions and history. Verified canonical URL.
