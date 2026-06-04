@@ -24,7 +24,7 @@ You will spend more time on feature engineering than on model selection in most 
 - [scikit-learn: Imputation of Missing Values](https://scikit-learn.org/stable/modules/impute.html) — How to handle `NaN`s with `SimpleImputer` and `IterativeImputer`.
 - [scikit-learn: Pipelines and Composite Estimators](https://scikit-learn.org/stable/modules/compose.html) — Building safe, reproducible preprocessing pipelines with `Pipeline` and `ColumnTransformer`.
 - [scikit-learn: Feature Selection](https://scikit-learn.org/stable/modules/feature_selection.html) — Removing low-variance or uninformative features before training.
-- [Google Machine Learning Crash Course: Feature Crosses](https://developers.google.com/machine-learning/crash-course/feature-crosses) — High-level intuition on transforming raw data into features.
+- [Google Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course) — High-level intuition on transforming raw data into features.
 
 ## Appendix
 

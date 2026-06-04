@@ -27,7 +27,7 @@ The training procedure also teaches you a foundational concept: maximum likeliho
 - [PyTorch Docs: BCEWithLogitsLoss](https://pytorch.org/docs/stable/generated/torch.nn.BCEWithLogitsLoss.html) — The numerically stable loss function used for binary classification in deep learning.
 - [Wikipedia: Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression) — Rigorous derivation of the model, likelihood function, and connection to generalized linear models.
 - [Stanford CS229 Lecture Notes](https://cs229.stanford.edu/notes2022fall/main_notes.pdf) — Derives logistic regression from maximum likelihood and connects it to the exponential family.
-- [3Blue1Brown: Neural Networks](https://www.3blue1brown.com/topics/neural-networks) — Visual intuition for sigmoid functions and how they convert scores to probabilities.
+- [3Blue1Brown: Neural Networks](https://www.3blue1brown.com/lessons/neural-networks) — Visual intuition for sigmoid functions and how they convert scores to probabilities.
 
 ## Appendix
 
@@ -84,4 +84,4 @@ $$
 ### Further Reading
 
 - [Elements of Statistical Learning, Section 4.4](https://web.stanford.edu/~hastie/ElemStatLearn/) — Logistic regression in the context of linear methods for classification.
-- [Distill.pub: Visual Information Theory](https://distill.pub/2017/information-theory/) — Builds intuition for cross-entropy, the core loss function of logistic regression.
+- [Distill.pub](https://distill.pub) — Builds intuition for cross-entropy, the core loss function of logistic regression.
